@@ -32,6 +32,10 @@ public class BookBean {
 		this.publisher = publisher;
 	}
 	
-	
+	public BookBean(String title, String author, String publisher) {
+		this.title = title;
+		this.author = author;
+		this.publisher = publisher;
+	}
 	
 }
